@@ -1,0 +1,48 @@
+import java.util.*;
+
+public class Main {
+static double convertToCelle(double c){
+    return Math.floor((double)((c-32)* 0.555));
+
+}
+    static double convertToFahrenheit(double f){
+        return Math.floor((double) (9 / 5 * f) + 32);
+    }
+static  Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+        System.out.println("1 to convert from Celcius to Fahrenheit ");
+        System.out.println("2 to convert from Fahrenheit to Celcius");
+        System.out.print("Select which formula you want to convert: ");
+        int choice=scanner.nextInt();
+        //Variables declaration
+        double c,f;
+        if (choice==1){
+            do {
+                System.out.print("Enter a Celcius value to convert: ");
+                c=scanner.nextFloat();
+                System.out.println("The value i out of the interval")
+
+
+            } while (c<= - 300 || c>=5000);
+            System.out.println("result of converting: "+c+" Celcius to Fahrenheit is: "+convertToFahrenheit(c));
+        }
+          if  ()
+          while ()
+          for ()
+        else if (choice==2){
+            do {
+                System.out.print("Enter a Fahrenheit value to convert: ");
+                f=scanner.nextFloat();
+                System.out.println ("The value is out of the interval");
+            } while (f<=-508 || f>=932);
+
+            System.out.println("result of converting "+f+" Fahrenheit to Celius is: "+convertToCelle(f));
+
+        }
+
+
+
+
+
+        }
+}

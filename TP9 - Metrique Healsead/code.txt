@@ -1,0 +1,9 @@
+if ( a > 2 )
+{
+if ( y > 2 ) {
+int z = x + y ;
+System.out.println(" z est:" + z) ;
+}}
+
+else System.out.println(" z est:" + z) ;
+

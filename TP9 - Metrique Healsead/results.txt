@@ -1,0 +1,4 @@
+Le nombre d'instructions (LOC) est: 3
+operateurs n1: 9
+operands n2: 20
+length: 29

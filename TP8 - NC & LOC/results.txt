@@ -1,0 +1,3 @@
+Le nombre d'instructions (LOC) est: 19
+Le nombre cyclomatique est: 6
+nnnnn nb
